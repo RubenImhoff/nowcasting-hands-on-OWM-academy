@@ -23,15 +23,11 @@ This step is required for running the Colab notebooks shared through the [GitHub
     drive.mount("mnt")
     %cd mnt/MyDrive
     # clone the repository from GitHub
-    !git clone https://github.com/pySTEPS/ERAD-nowcasting-course-2022
+    !git clone https://github.com/RubenImhoff/nowcasting-hands-on-OWM-academy.git
     # create notebook directory (if it doesn't already exist)
     if not os.path.exists('Colab Notebooks'):
         !mkdir 'Colab Notebooks'
     # copy the course notebooks to the above folder
-    !cp ERAD-nowcasting-course-2022/hands-on-session-users/notebooks/*.ipynb 'Colab Notebooks'
+    !cp nowcasting-hands-on-OWM-academy/notebooks/*.ipynb 'Colab Notebooks'
 
-Now you can open the example notebooks in Colab.
-
-## 4. Download example data
-
-Downloading the example data to your Google Drive folder will take some time. To facilitate smooth running of the noteboks, you can do this before the session. The easiest way is to run the [helper notebook](https://github.com/pySTEPS/ERAD-nowcasting-course-2022/blob/main/hands-on-session-users/notebooks/helper_setup_pip.ipynb) made for this purpose.
+Now you can open the example notebooks in Colab by either navigating through your 'Colab Notebooks' folder or by uploading them if you have stored them locally.

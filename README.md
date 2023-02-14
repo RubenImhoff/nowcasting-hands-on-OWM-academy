@@ -1,5 +1,5 @@
 # Nowcasting for hands-on session OWM Academy
-Three exercises to get familiar with radar data and nowcasting.
+Three exercises to get familiar with radar data and nowcasting. Background information and the exercices are further explained in the notebooks, but first follow the steps below.
 
 # Pre-requisites for the “hands-on session”
 
@@ -31,3 +31,7 @@ This step is required for running the Colab notebooks shared through the [GitHub
     !cp nowcasting-hands-on-OWM-academy/notebooks/*.ipynb 'Colab Notebooks'
 
 Now you can open the example notebooks in Colab by either navigating through your 'Colab Notebooks' folder or by uploading them if you have stored them locally.
+
+## 4. Perform the three exercises in the Colab Notebooks
+
+Start with "exercise01_ijnput_data.ipynb" and continue with exercise02 and exercise03. At the end of these exercises, you should have a good first idea of handling radar rainfall data, producing nowcasts and using pysteps.

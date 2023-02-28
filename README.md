@@ -31,7 +31,8 @@ This step is required for running the Colab notebooks shared through the [GitHub
     !cp nowcasting-hands-on-OWM-academy/notebooks/*.ipynb 'Colab Notebooks'
 
 Now you can open the example notebooks in Colab by either navigating through your 'Colab Notebooks' folder or by uploading them if you have stored them locally.
+Note, from experience we can say that it is easiest to open the notebooks directly from you Google Drive after having followed the previous steps. Go to your Google drive (drive.google.com) and open the folder "Colab Notebooks" --> click on the exercise that you are going to do (for instance, exercise01_input_data.ipynb).
 
 ## 4. Perform the three exercises in the Colab Notebooks
 
-Start with "exercise01_ijnput_data.ipynb" and continue with exercise02 and exercise03. At the end of these exercises, you should have a good first idea of handling radar rainfall data, producing nowcasts and using pysteps.
+Start with "exercise01_input_data.ipynb" and continue with exercise02 and exercise03. At the end of these exercises, you should have a good first idea of handling radar rainfall data, producing nowcasts and using pysteps.
